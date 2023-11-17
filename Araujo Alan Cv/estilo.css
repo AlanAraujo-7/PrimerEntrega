@@ -1,0 +1,288 @@
+.pagina{
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+    box-shadow: 5px 2px 14px 10px #eeeaea;
+    font-family: 'inter', sans-serif;
+    margin: auto;
+    padding: 0;
+    position:relative;
+    padding-bottom:27%;
+    min-height: 210vh;
+    color:rgb(0, 0, 167);
+    letter-spacing: 1px;
+    }
+  .encabezado {
+  background-color: rgb(4, 136, 198);
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  }
+  .encabezado__imagen {
+    width: 150px;
+    height: 160px;
+    border-radius: 50%;
+    margin-right: 330px;
+    margin-left: 40px;
+    transition: .7s;
+  }
+  .encabezado__imagen:hover{
+  width: 200px;
+  height: 210px;
+  border-radius: 50%;
+  }
+  .encabezado-contenido {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+  }
+  .encabezado__titulo {
+    color: #ffffff;
+    font-size: 30px;
+    margin: 0;
+    text-align: center;
+    transition: 1s;
+  }
+  .encabezado__titulo:hover {
+    font-size: 32px;
+    color:rgb(249, 7, 7);
+  }
+  .encabezado__subtitulo {
+    color: #ffffff;
+    font-size: 20px;
+    margin: 0;
+    text-align: center;
+    transition: 1s;
+  }
+  .encabezado__subtitulo:hover{
+    color:rgb(5, 5, 248);
+    font-size: 22px;
+  }
+  .columna-izquierda {
+    float: left;
+    width: 50%;
+    padding-right: 30px;
+    box-sizing: border-box;
+    padding-left: 15px;
+    padding-top: 10px;
+  }
+  .columna-izquierda__titulo {
+    margin-top: 0;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: left;
+    padding-bottom: 1px;
+    transition: .5s;
+  }
+  .columna-izquierda__conocimientos {
+    margin-top: 30px;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: left;
+    transition: .5s;
+  }
+  .columna-izquierda__titulo:hover, .columna-izquierda__conocimientos:hover{
+    font-size: 30px;
+    color:rgb(255, 0, 0)
+  }
+  .columna-izquierda__texto {
+    font-size: 20px;
+    line-height: 1.5;
+    text-align: left;
+  }
+  .columna-izquierda__lista{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      list-style: none;
+      max-width: 30%;
+      transition: .5s;
+    }
+  .columna-izquierda__lista2 {
+    list-style: none;
+    margin-bottom: 15px;
+    padding: 0;
+    bottom: 10px;
+  }
+  .columna-izquierda__lista li,
+  .columna-derecha__lista2 li {
+    margin-bottom: 10px;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  .columna-izquierda__lista li a {
+    display: block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: #ffffff;
+    border-radius: 50%;
+    transition: background-color 0.5s ease;
+  }
+  .columna-izquierda__lista-whatsapp a{
+    background-color: #23c129;
+  }
+  .columna-izquierda__lista-whatsapp a:hover {
+    background-color: rgba(89, 255, 0, 0.37); 
+  }
+  .columna-izquierda__lista-linkedin a{
+    background-color: #091f9b;
+    display: inline;
+  }
+  .columna-izquierda__lista-linkedin a:hover {
+    background-color: rgba(1, 133, 215, 0.37); 
+  }
+  .columna-izquierda__lista-instagram a{
+    background-color: #da02a4;
+  }
+  .columna-izquierda__lista-instagram a:hover {
+    background-color: rgba(230, 78, 220, 0.37); 
+  }
+  
+  .fa-whatsapp,
+  .fa-linkedin,
+  .fa-instagram {
+    font-size: 20px;
+  } 
+  .columna-derecha {
+    float: right;
+    width: 50%; 
+    padding: 20px; 
+    box-sizing: border-box;
+    background-color: #dbe2e7; 
+  }
+  .columna-derecha__titulo {
+    margin-top: 0; 
+    font-size: 24px;
+    font-weight: bold; 
+    transition: .5s;
+  }
+  .columna-derecha__titulo2 {
+    margin-top: 7; 
+    font-size: 24px; 
+    font-weight: bold;
+    transition: .5s;
+  }
+  .columna-derecha__titulo:hover, .columna-derecha__titulo2:hover{
+  font-size: 30px;
+  color:rgb(255, 0,0);
+  }
+  .columna-derecha__lista {
+    list-style: none; 
+    margin: 0; 
+    padding: 0; 
+  }
+  .columna-derecha__lista li {
+    margin-bottom: 20px; 
+    font-size: 18px; 
+    line-height: 1.5; 
+  }
+  .columna-derecha__lista h4 {
+    margin-top: 0;
+    font-size: 20px; 
+    font-weight: bold; 
+  }
+  .columna-derecha__lista li:last-child {
+    margin-bottom: 0; 
+  }
+  .formulario {
+    width: 30%;
+    float: left;
+    margin-right: 20px;
+    padding-right: 30px;
+    box-sizing: border-box;
+    padding-left: 15px;
+  }
+  .formulario__titulo {
+    font-size: 24px;
+    margin-bottom: 10px;
+    transition: .5s;
+  }
+  .formulario__titulo:hover{
+    font-size: 29px;
+    color:rgb(255, 0, 0);
+  }
+  .formulario__form {
+    display: flex;
+    flex-direction: column;
+  }
+  .formulario__form label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  .formulario__form input,
+  .formulario__form textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  .formulario__form input[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  .formulario__form input[type="submit"]:hover {
+    background-color: #3e8e41;
+  }
+  .footer {
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:rgb(4, 136, 198);
+    color: white;
+    padding: 10px;
+  }
+  .footer__logo {
+    flex-basis: 25%;
+    color:rgb(0, 0, 255);
+    transition: .5s;
+  }
+  .footer__logo:hover{
+    size: 30px;
+    color:rgb(255, 0,0);
+  }
+  .footer__content {
+    flex-basis: 25%;
+    text-align: center;
+  }
+  .footer__author {
+    flex-basis: 25%;
+    text-align: right;
+  }
+  .ir-a-mapa{
+    color: #091f9b;
+   font-size: 20px;
+   transition: 1s;
+ }
+ .ir-a-mapa:hover{
+   font-size: 25px;
+ }
+  .bodymapa{
+   background-image:url("globoterraqueo2.jpg");
+}
+  .headermapa{
+    color:rgb(255, 255, 255);
+  font-size: 32px;
+  margin: 0;
+  text-align: center;
+  transition: 1s;
+  background-color: #091f9b;
+}
+.headermapa:hover {
+  font-size: 32px;
+  color:rgb(183, 178, 178);
+}
+.textomapa {
+    font-size: 23px;
+    color:rgb(255, 255, 255);
+  }
